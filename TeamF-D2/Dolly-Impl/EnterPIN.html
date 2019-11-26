@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter PIN</title>
+	<style>
+         .button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+      </style>
+</head>
+<body>
+	<!-- <input type="number" name="pin" max="9999" min="0000" maxlength="4" size="4">
+	<a href="PaymentStatus.html" class="button">OK</a> -->
+	<form action="PaymentStatus.html" method="get">
+		<h1>Enter PIN</h1>
+		<input type="number" name="pin" max="9999" min="0000" minlength="4" maxlength="4" size="4" pattern=".{4,4}" required />
+		<input type="submit" value="OK"></br>
+      	<a href="RemoveCard.html" class="button">Cancel</a></br>
+	</form>
+</body>
+</html>
