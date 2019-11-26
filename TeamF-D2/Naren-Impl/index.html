@@ -15,15 +15,22 @@
          margin: 4px 2px;
          cursor: pointer;
          }
+         .centered{
+             position: fixed;
+             top:30%;
+             left: 30%;
+         }
       </style>
 </head>
 <body>
+  <div class="centered">
 	<h1>Metro TVM</h1>
 	<a href="InsertCard.html" class="button">Recharge Card</a>
 	<a class="button" onclick="myFunction()">Purchase Ticket</a>
    <div id="myDIV" style="display: none;">
          <h3 tyle="font-weight: bold">This user story has not been implemented.</h3>
    </div>
+ </div>
 <script>
 function myFunction() {
   var x = document.getElementById("myDIV");
