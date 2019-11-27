@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TVM</title>
+	<style>
+         .button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+         .centered{
+             position: fixed;
+             top:30%;
+             left: 30%;
+         }
+      </style>
+</head>
+<body>
+    <div class="centered">
+        <h1>Ticket Vending Machine</h1>
+    <h3> Select your preferred language</h3>
+    <h3>Sélectionnez votre langue préférée</h3>
+
+        <a class="button" onclick="myFunction()">English</a>
+        <a class="button" onclick="myFunction()">Française</a>
+        <div id="myDIV" style="display: none;">
+            <h3 tyle="font-weight: bold">This part of the implemntation has been implemented by my teammate.</h3>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            x.style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
